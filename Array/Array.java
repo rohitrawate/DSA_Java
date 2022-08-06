@@ -22,10 +22,10 @@ public class Array{
         //     new InputStreamReader(System.in));
  
             
-            
+            System.out.println("2D Array");
         String[][] stra = new String[3][2];
         for( j=0 ; j<3; j++ ){
-             for( k=0 ; k<2; k++ ){
+             for( k=0 ; k< stra[j].length; k++ ){
                  System.out.print("Enter :");
                 //   strNums = bi.readLine().split(" ");
                  stra[j][k] = scan.next();

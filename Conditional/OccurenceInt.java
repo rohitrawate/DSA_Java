@@ -7,21 +7,18 @@ public class OccurenceInt{
     {
       HashMap<Integer,Integer> CountMap = new HashMap<Integer,Integer>(); 
      
-      while (Num > 0){
+      while (inputnum > 0){
           
-        int remainder = Num % 10;    // Returns the remainder of the Num.
+        int remainder = inputnum % 10;    // Returns the remainder of the Num.
          if(count == remainder){
-        CountMap.put(remainder,);
+        CountMap.put(remainder);
          }
         System.out.println("The Digit is : "+ remainder);
         count = remainder;
-        Num = Num /10;
+        inputnum = inputnum /10;
     }
-      
-
-      
+       
     }
-
 
     public static void main(String args[])
     {

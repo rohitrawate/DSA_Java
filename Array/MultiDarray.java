@@ -6,15 +6,21 @@ public class MultiDarray {
         // Two dimensional array:
     // int[][] arr2D = new int[3][3];     // stores a total of (3*3) = 9 elements.
     int [][]  arr2D = { 
-         { 1, 2, 3 }, 
-         { 4, 5, 6 }, 
-         {7, 8, 9 }
+         { 1, 2, 3, 3 }, 
+         { 4, 5, 6, 8 }, 
+         {7, 8, 9, 8 }
        };
 
        System.out.println("Length of arr2D: "+arr2D.length );  //Returns only the row size
         
-        for (int i = 0; i < 3; i++) {
-            for (int j = 0; j < 3; j++) {
+        // for (int i = 0; i < 3; i++) {
+        //     for (int j = 0; j < 3; j++) {
+        //         System.out.print(arr2D[i][j] + " ");
+        //     }
+        //     System.out.println("");
+        // }
+        for (int i = 0; i < arr2D.length; i++) {
+            for (int j = 0; j < arr2D[i].length; j++) {
                 System.out.print(arr2D[i][j] + " ");
             }
             System.out.println("");

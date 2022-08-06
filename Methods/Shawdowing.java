@@ -1,11 +1,12 @@
 
 public class Shawdowing {
-    static int x;   // Global variable
+    static int x=8;   // Global variable
     public static void main(String[] args) {
          System.out.println(x);
-        int x;     // class variavble is shawdowed by this variable
-        // System.out.println(x);  //Scope will BEgin when value is initialised
-        x= 99;
+         x = 6;     // class variavble is shawdowed by this variable
+        System.out.println(x);  //Scope will BEgin when value is initialised
+        x= 3333; //Reassigning
+        int x = 99;
         System.out.println(x);    // 99
         fun();
 

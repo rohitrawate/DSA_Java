@@ -5,13 +5,15 @@
 public class Overloading {
 public static void main(String[] args) {
     
-    add(12, 8);
+    add(12, 8);         // add called
     String me = "Rohit";
-     name(me);
-     System.out.println("In main method "+ me);
+     name(me);               //  name called
+    //  System.out.println("In main method "+ me);
      
-     
-  }    
+     compileTime("PrintJAVA");
+     compileTime(8876);
+  } 
+
   static void add(int a, int b){
     int c = a + b;
     System.out.println("Sum = "+c );
@@ -22,5 +24,15 @@ public static void main(String[] args) {
       author = author.toUpperCase();
      System.out.println(author);
   }
+
+    static void compileTime(int a){
+       System.out.println(  " Int type called() " +a);
+     }
+
+     static void compileTime(String java){
+      System.out.println(" String type called() " + java);
+
+    }
+  
 
 }

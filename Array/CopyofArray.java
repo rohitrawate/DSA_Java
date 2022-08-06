@@ -47,9 +47,7 @@ public class CopyofArray {
             for (int i = 0; i < copyarr.length; i++)
                 System.out.print(copyarr[i] + " ");
 
-
     }
 
-   
-    
+
 }

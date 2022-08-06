@@ -11,7 +11,7 @@ class Student{
     }
 }
 
-public class userArr {
+public class UserArr {
     public static void main(String[] args) {
        
         Student[] arr;

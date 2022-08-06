@@ -21,6 +21,7 @@ public class CountNum{
         while (userin > 0){
           
             long remainder = userin % 10;    // Returns the remainder of the Num.
+            
             System.out.println("The Digit(remain) is : "+ remainder);
             
             if (remainder == count){

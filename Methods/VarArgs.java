@@ -23,6 +23,6 @@ public class VarArgs{
 
          //  Variable length arguments of Mixed Dtypes
      static void multiple(int a, String str, double ...darr){
-         System.out.println("int= "+ a+ "Str= "+ "Double arr= "+Arrays.toString(darr));
+         System.out.println("int= "+ a+ "    Str= "+str+ "      Double arr= "+Arrays.toString(darr));
      }
 }

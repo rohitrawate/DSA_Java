@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class PrimeNum {
     public static void main(String[] args) {
+
         Scanner in = new Scanner(System.in);
         System.out.println("Enter a Num :");
         int n = in.nextInt();
         Boolean result = isPrime(n);           // Boolean is Rapper-Class  boolean is premitive Dtype
          System.out.println("Is the Number Prime? \n"+result.toString().toUpperCase()); 
-
 
     }
 
@@ -23,7 +23,7 @@ public class PrimeNum {
                 }
                 c++;
             }
-             return c*c > num;                               // if(c * c > num){
+            return c*c > num;                               // if(c * c > num){
                                             //      return true;
                                             // }
                                             //     return false;

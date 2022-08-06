@@ -16,14 +16,12 @@ public class Amstrong {
 
 
 
- // To Know the Amstrong Number
+ // To Know the Amstrong Number from                 ****** 1 to 1000
         for(int i=100 ; i<1000; i++){
             if(checkAmstrong(i)){
                 System.out.print(i+" ");
               }
          }
-
-
     }
 
     //  Only returns the sum of indivdual cubes
@@ -31,7 +29,7 @@ public class Amstrong {
         int sum=0;
         while(a >0){
            int rem = a % 10; 
-           int cube = (int)Math.pow(rem,3);
+           int cube = (int)Math.pow(rem,3);         ////******** */
             sum = sum + cube;
              a = a /10;
         }    
@@ -47,7 +45,7 @@ public class Amstrong {
         while( n > 0){
            int rem = n % 10;
            n = n/10;
-           sum = sum + rem*rem*rem;
+           sum = sum + rem*rem*rem;                ////********* */
         }
 
          if(sum == original){
@@ -55,10 +53,6 @@ public class Amstrong {
          }
          return false;
     }
-
-
-
-
     // in.close();
 }
 
