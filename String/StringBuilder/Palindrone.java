@@ -1,10 +1,13 @@
 public class Palindrone {
     public static void main(String[] args) {
 
-        String str = "";
+        String str = "Mada;m";
+        String str1 = "Mada  m";   // false 
+        String str2 = "Mada@m";    // falase
+        
         System.out.println("Length : "+ str.length());
-        final boolean check = isPal(str);
-        System.out.println("Result : "+ check);
+         boolean check = isPal(str);
+        System.out.println("Result : "+ str +" is " + check);
     }
 
     static boolean isPallindrome(String word)
