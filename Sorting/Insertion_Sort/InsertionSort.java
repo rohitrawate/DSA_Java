@@ -6,7 +6,7 @@ public class InsertionSort {
         System.out.println("--- Insertion Sort ---");
 
         int[] arr =  {5,3,0,4,2,88,33,22,44};//55,66,77,11,45,75,99,234,56,57,35,87,54,67,32,13,17,39,41,50,37
-
+        System.out.println(" Array : "+Arrays.toString(arr));
         int[] result = insertionSort( arr, arr.length );
 
         System.out.println(" Result : "+Arrays.toString(result));
@@ -31,7 +31,7 @@ public class InsertionSort {
                     break;
                 }   
             }
-            System.out.println(Arrays.toString(num) +"\n"+ count);
+            System.out.println(Arrays.toString(num) +"\n Count: "+ count);
         }
         return num;
     }
