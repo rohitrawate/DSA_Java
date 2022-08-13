@@ -18,8 +18,8 @@ public class Test {
         // System.out.println(k);
 
         /*  ** Prints 10 times Hello **   */
-        int i;
-        for( i=0; i<10; i=i++){
+        // int i;
+        for( int i=0; i<10; i=i++){
             System.out.println("Before"+i);
             i=i+1;
             // i=i/2;  Infinite loop coz i=0 Always

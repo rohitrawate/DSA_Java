@@ -1,15 +1,16 @@
+// package Intro;
 
 
 class Student{
     private int roll_no;           //int roll;
-    private String name;           //String namee;
+    public String name;           //String namee;
     private float marks;           //float markss;
     private double percentage;     //double percent;
                       // Constructor  has no return type  
     Student(){                                 //  Default Constructor :  with no parameters
         // Can Call Other Constructor in default/ other constructor
         this (133,"default person", 99, 65.54  ); 
-         System.out.println("New Student Object Instantiated ! ");
+         System.out.println("New Student (Default)Object Instantiated ! ");
      } 
     //Student  Pramod  = new  Student(144 , ) 
     Student(int roll, String naam , float mrks , double cent )     // Parameterised Constructor
@@ -47,12 +48,12 @@ class Student{
 public class IntroOOP {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("Intro OOP");
 
         Student student1 = new Student();         // Construct call
         Student stud2    = new Student( 123,"Rohit", 88, 95.7  );
         System.out.println(stud2);   //  => Student@7852e922
-        // System.out.println(student1.namee);
+        System.out.println(student1.name);   // -> output if the 
         // System.out.println(student1.roll);
         // System.out.println(student1.markss);
         // System.out.println(student1.percent);
