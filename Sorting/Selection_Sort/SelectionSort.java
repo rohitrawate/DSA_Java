@@ -5,7 +5,7 @@ public class SelectionSort {
         System.out.println("--- Selection Sort ---");
 
         int[] nums = {5,7,2,8,4,9,6,1,3};
-        int len  = nums.length;
+       // int len  = nums.length;
         int[] ans = selectSort(nums);
 
         for (int i : ans) {
