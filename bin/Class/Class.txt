@@ -1,0 +1,8 @@
+ A Class is a collecetion of objects.
+ A class contains the blueprints or the prototype from which the objects are being created. 
+ It is a logical entity that contains some attributes and methods.
+
+ > Classes are created by Keyword `class`.
+ > Attributes are the variables that belong to a class.
+ > Attributes are always public and can be accessed using dot(.) operator
+   Eg.: Myclass.myattribute  -- Human.population
