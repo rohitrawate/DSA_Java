@@ -1,0 +1,6 @@
+The `Objects` is an entity that has a state and behaviour associated with it.
+It may be a real-world Objects like a mouse, keybord, car, pen etc.
+
+> State : It is represented by the attributes of an object. It also reflect the properties of an Objects 
+> Behaviour : It is represented by the methods  of an object.It also reflects the reponse of an Objects to other objects.
+> identity : It gives unique name to an objects and enables one object to interact with other objects.
