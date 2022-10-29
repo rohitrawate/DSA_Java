@@ -1,0 +1,19 @@
+Polymorphism simply means having many forms.
+The literal meaning of Polymorphism is the condition of occurrence in different froms.
+
+Polymorphism :-  MANY ways to REPRESENT 
+
+
+
+Types of Polymorphism :
+
+1. Compile Time Polymorphism / Static Polymorphism
+    Achieved via method Overloading
+    Overloading -> Same Name but different types, numbers n order of arguments
+    
+    Constructor Overloading
+
+
+2. Run  Time Polymorphism / Dynamic Polymorphism :
+
+    

@@ -1,0 +1,57 @@
+*INHERITANCE - The keyword used for inheritance is `extends`. 
+
+It is the mechanism in java by which one class is allowed to inherit 
+the features(fields and methods) of another class. 
+
+Super Class: The class whose features are inherited is known as superclass(or a base class or a parent class).
+Sub Class: The class that inherits the other class is known as a subclass(or a derived class, extended class, 
+or child class). The subclass can add its own fields and methods in addition to the superclass fields and methods.
+
+1. Single Inheritance:
+            subclasses inherit the features of one superclass.
+                        A 
+                        |
+                        B
+2. Multilevel Inheritance: 
+                     a derived class will be inheriting a base class and 
+                     as well as the derived class also act as the base class to other class. 
+                        A
+                        |
+                        B
+                        |
+                        C
+3. Hierarchical Inheritance:                        
+     one class serves as a superclass (base class) for more than one subclass.
+                        A
+                        |
+                  ______|_______
+                 |      |      |    
+                 B      C      D 
+4. Multiple Inheritance (Through Interfaces): In Multiple inheritances,
+             one class can have more than one superclass and inherit features from all parent classes.                 
+    Please NOTE: Java , does not support multiple inheritances with classes.
+
+             A (Interface)       B (Interface)  
+              \                 /
+               \               /
+                 \           /  
+                   \       /
+                     \   /
+                       C (Interface)
+
+5. Hybrid Inheritance(Through Interfaces): 
+     Since java doesn’t support multiple inheritances with classes, hybrid inheritance is also not possible with classes.
+         In java, we can achieve hybrid inheritance only through Interfaces.                       
+
+                       A 
+                    /     \
+                  /         \
+                /             \
+              /                 \
+            B (Interface)        C (Interface)  
+              \                 /
+               \               /
+                 \           /  
+                   \       /
+                     \   /
+                       D (Interface)
