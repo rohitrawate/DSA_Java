@@ -1,11 +1,11 @@
-package LinkedList;
+// package LinkedList;
 
 public class LinkedList {
     
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		System.out.print(" LinkedList ");
+		System.out.println(" LinkedList ");
 	}
 
 }

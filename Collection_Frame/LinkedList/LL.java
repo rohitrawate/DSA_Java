@@ -1,4 +1,4 @@
-package LinkedList;
+// package LinkedList;
 
 public class LL {
 
@@ -9,13 +9,4 @@ public class LL {
 	}
 
 }
-//package LinkedList;
-//
-//public class LinkedList {
-//    
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-//
-//	}
-//
-//}
+
