@@ -1,0 +1,3 @@
+ Some short Notes of Java Data Structure 
+ from  Book - "Data Structure with JAVA" 2nd Edition by - John R Hubbard
+ S2-A32
