@@ -1,0 +1,7 @@
+
+import java.util.Arrays;
+
+Arrays Class Methods
+
+int a[] = { 1,4,8,9,7,5,3,2,6}
+Arrays.sort()
