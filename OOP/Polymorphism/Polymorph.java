@@ -25,6 +25,7 @@ public class Polymorph {
         Parent parent = new Parent();
 
         System.out.println(" Printing value of "+ cobj.value );
+        System.out.println(" Printing value of "+ par.value );
         System.out.println(" Printing value of "+ ((Child) cobj).value );
 
         System.out.println(" Printing value of "+ parent.value );

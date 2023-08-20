@@ -5,11 +5,14 @@ public class pop {
     public static void main(String[] args) {
         System.out.println("MAIN ()  ");
 
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
 
-        char gender = sc.next().charAt(0);
+        String name = System.console().readLine();
+        System.out.println("You entered string :" + name);
 
-        System.out.println("Gender : "+ gender);
+       //char gender = sc.next().charAt(0);
+
+        System.out.println();
 
         
     }
@@ -20,3 +23,18 @@ public class pop {
         
     }
 }
+
+/* 
+// Java program to demonstrate working of System.console()
+// Note that this program does not work on IDEs as
+// System.console() may require console
+public class Sample {
+    public static void main(String[] args)
+    {
+        // Using Console to input data from user
+        String name = System.console().readLine();
+ 
+        System.out.println("You entered string " + name);
+    }
+}
+*/
