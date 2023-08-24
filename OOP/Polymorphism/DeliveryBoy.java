@@ -1,11 +1,18 @@
 // package Polymorphism;
 
-/*  Example 2: Dynamic Polymorphism
+/*  
+ * 
+ * 
  */
 import java.util.Random;
 // public class DeliveryBoy {}
   
 class DeliveryBoy {
+
+    Object thirdMethodOfSuperClass()       // return type of Superclass method is Object n STring is od
+    {
+        return new Object();
+    }
   
     public void deliver() {
         System.out.println("Delivering Item");
@@ -13,7 +20,7 @@ class DeliveryBoy {
   
     public static void main(String[] args) {
         DeliveryBoy deliveryBoy = getDeliveryBoy();
-        deliveryBoy.deliver();x
+        deliveryBoy.deliver();
     }
   
     private static DeliveryBoy getDeliveryBoy() {
@@ -25,8 +32,12 @@ class DeliveryBoy {
   
 class Postman extends DeliveryBoy {
     @Override
-    public void deliver() {
+    public void deliver() {             // Error if return type changed to int as it is not its sub class
         System.out.println("Delivering Letters");
+    }
+
+    String thirdMethodOfSuperClass(){   // String is sub class of Object class
+       return new String();
     }
 }
   
