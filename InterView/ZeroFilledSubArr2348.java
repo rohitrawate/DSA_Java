@@ -66,7 +66,7 @@ public class ZeroFilledSubArr2348 {
     public static void main(String[] args) {
          
         int[] arr = {0,0,0,2,0,0};    // 9
-        int[] arr = {0,0,0,2,0,0};    // 9
+        int[] arr1 = {1,3,0,0,2,0,0,4};    // 6
         long ans = ZeroFilledSubArr2348.zeroFilledSubarray(arr);
         System.out.println(" ans : "+ ans);
     }
