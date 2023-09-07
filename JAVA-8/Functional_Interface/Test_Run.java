@@ -1,5 +1,6 @@
 
 // Java Program to demonstrate Functional Interface ( Interface with Only one abstract method )
+// Implementation of functional interface using lambda expressions
 
 public class Test_Run {
         public static void main(String[] args) {
@@ -9,6 +10,11 @@ public class Test_Run {
               public void run(){
                 System.out.println("New Thread created");
               }   
+            }).start();
+
+            //Java 8 lambda Express
+            new Thread ( () -> {
+                System.out.println("calling abstract method Using lambda Express");
             }).start();
         }
 }
