@@ -36,8 +36,8 @@ public class InterAbstract  {
         // Interface can't be Instantiated ( can't create Obj of Intefface) But cant be referenced to the Obj of 
         // its implementing class 
         // Inside the Interface constructors are not allowed.
-    // Inside the Interface not possible to declare instance variables because by default variables are public static final.
-    //    
+    // Inside the Interface not possible to declare instance variables because by default variables 
+    //  are public static final.
         obj.account();
         obj.withdraw();
         obj.deposit();
