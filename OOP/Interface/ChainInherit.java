@@ -11,10 +11,21 @@ interface B extends A{
     String toString();  // has Methods from Object Class
 
 }
+// abstract
+abstract class AbstClass{
+       AbstClass(){
+         System.out.println("--- Abstrt ---");
+       }
+       abstract void Abst_method();
+       
+  }
 
 public class ChainInherit implements B {
 
     public static void main(String[] args) {
+        //  Abstract class have Constructor to initiate them But Not the Interface
+        AbstClass abstObj = new AbstClass();
+            
         ChainInherit obj = new ChainInherit();
         A  intObj = obj;        // reference Varof Interface 
         intObj.getClass();
@@ -40,3 +51,6 @@ public class ChainInherit implements B {
       }
     
 }
+
+
+

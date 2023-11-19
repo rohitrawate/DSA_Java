@@ -24,10 +24,10 @@ abstract class Dev2 extends Dev1{
 
 class Dev3 extends Dev2{
     public void loan(){
-        // System.out.println("Your loaN : ");
+        System.out.println("--- Loan --- : ");
     }
 
-    public void account() { }
+    public void account() { System.out.println("--- Account ---"); }
 }
 
 public class InterAbstract  {
@@ -38,6 +38,7 @@ public class InterAbstract  {
         // Inside the Interface constructors are not allowed.
     // Inside the Interface not possible to declare instance variables because by default variables 
     //  are public static final.
+        obj.loan();
         obj.account();
         obj.withdraw();
         obj.deposit();
