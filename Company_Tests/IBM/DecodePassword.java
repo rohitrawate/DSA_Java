@@ -10,7 +10,8 @@ public class DecodePassword {
 
         System.out.println("Hello - Password Decoder");
         String Result = DecodePassword.PassDecoder(password_Ascii);
-        System.out.println("Result :: "+ Result);
+        System.out.println("Result :: "+ Result + "\n Length : "+Result.length());
+        
 
     }
 
@@ -51,7 +52,8 @@ public class DecodePassword {
                 value = 0;
             }
             else if( value == 32){
-                System.out.println( " Space Added => "+  Password.append((char) value) );
+                // System.out.println( " Space Added => "+  Password.append((char) value) );
+                System.out.println("Space Added => " + Password.append(" "));
                 count = 1;
                 value = 0;
             }
