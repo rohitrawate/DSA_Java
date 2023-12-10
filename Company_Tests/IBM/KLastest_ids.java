@@ -26,11 +26,10 @@ public class KLastest_ids {
         List<String> ans = new ArrayList<>(K);
 
         String[] arr =  reqs.toArray( new String[0]);
-        System.out.println( " reqs -> toStr() : " +reqs.toString() );
-        System.out.println( "arr -> toStr() : "+Arrays.toString(arr) );
+        // System.out.println( " reqs -> toStr() : " +reqs.toString() );
+        // System.out.println( "arr -> toStr() : "+Arrays.toString(arr) );
         
         for (int i= reqs.size()-1; i>=0; i-- ) {
-
 
             if( ans.contains( reqs.get(i) ) ){
                 continue;
@@ -44,6 +43,6 @@ public class KLastest_ids {
         }
         
         
-        return reqs;
+        return ans;
     }
 }

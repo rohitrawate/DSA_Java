@@ -21,8 +21,8 @@ public class SortArrIncreFreq1636 {
     public static void main( String[] agrs){
         System.out.println("Using HashMap , List<Entry<>> of Entry-Set \n LinkedHashMap (For sorted Entries) and  Collection.sort( o1.compareTo(o2) of Comparable Interface) Sort Ele in ArrayList \n  ");
 
-        // int[] nums = {1,1,2,2,2,3};
-        int[] nums = {2,3,1,3,2};
+        int[] nums = { 2,1,1,1,3,3,5,5};
+        // int[] nums = {2,3,1,3,2};
         // int[] nums = {-1,1,-6,4,5,-6,1,4,1};
         // int[] result = frequencySort(nums);
         HashMap<Integer, Integer> result = frequencySort(nums);

@@ -26,8 +26,8 @@ public class BubbleSort {
                 {
                     System.out.println("Swaped");
                     int temp = arr[j];
-                      arr[j] =  arr[i];
-                      arr[i] = temp;
+                    arr[j] =  arr[i];
+                    arr[i] = temp;
                 }
             }
         }

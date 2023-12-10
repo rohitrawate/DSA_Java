@@ -17,12 +17,12 @@ public class StringtoASCII {
         // String  Password1 = Password.append("");
         
         // String Password1 =  Password.toString();   // Password + "";       // Str Builder to String
-        System.out.println("Password : "+ ((Object)Password).getClass().getSimpleName());
+        System.out.println("Password Type : "+ ((Object)Password).getClass().getSimpleName());
 
         StringtoASCII obj = new StringtoASCII();
         long Ascii =   obj.UncodePassword(Password.toString());
 
-        System.out.println("Result of  String to Ascii (in long):" + Ascii);
+        System.out.println("Result of  String to Ascii (in long): " + Ascii);
     }
 
     public long UncodePassword( String Password){

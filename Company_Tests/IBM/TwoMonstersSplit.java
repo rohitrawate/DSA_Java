@@ -42,7 +42,7 @@ public class TwoMonstersSplit {
             TSet.add(subStr.length() );
 
         }
-        System.out.println("char Split Array L : "+ list.size() );
+        System.out.println("char Split Array L : "+ list.size() + " \nTset Len : "+ TSet.size() );
         System.out.println( list.toString()  + " \n" + TSet.toString());
         return TSet.first();
     }
