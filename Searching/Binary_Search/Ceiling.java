@@ -1,7 +1,6 @@
-import java.util.Scanner;
-public class Floor {
+import java.util.Scanner;;
 
-
+public class Ceiling {
     public static void main(String[] args) {
         
         int[] arr = {2,4,5,9,14,16,17,20};
@@ -11,7 +10,7 @@ public class Floor {
 
         int ans = Ceiling(arr ,target);
         if(ans !=-1)
-        System.out.println("Position of Floor ele : "+ ans +" Ele is "+arr[ans]);
+        System.out.println("Position of Ceiling ele : "+ ans +" Ele is "+arr[ans]);
         else
          System.out.println("Ele NOT found : "+ans);
 
@@ -38,8 +37,8 @@ public class Floor {
               return mid;
          }
              // return find;
-             return end;   
+            System.out.println(" start : "+ start + " arr[start] : "+ arr[start] );
+            System.out.println(" end : "+ start + " arr[end] : "+ arr[end] );
+            return start;   
      }
 }
-
-
