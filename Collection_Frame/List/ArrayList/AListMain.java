@@ -34,6 +34,9 @@ public class AListMain {
         l1.addAll(1, l2);
         System.out.println("New L1 : "+ l1.toString());
         
+        // remove has two methods 
+        // 1. remove(int index)   
+        // 2. remove(element)
         l1.remove(0);           // Remove Ele from List class using `remove()`
         System.out.println("New* L1 : "+ l1);
 
